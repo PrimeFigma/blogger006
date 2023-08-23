@@ -28,6 +28,7 @@ app.use(
     saveUninitialized: true,
   })
 );
+//remote DB
 
 mongoose.connect("mongodb+srv://figma555m:figma555m@blogger006.obruaqt.mongodb.net/?retryWrites=true&w=majority");
 var db = mongoose.connection;
